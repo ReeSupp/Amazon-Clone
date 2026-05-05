@@ -52,7 +52,7 @@ products.forEach((product)=>{
           </button>
         </div>
     `;
-   // console.log(productsHTML);
+   //console.log(productsHTML);
 });
 
 console.log(productsHTML);
@@ -89,6 +89,6 @@ else{
     });
   
     document.querySelector('.js-cart-quantity').innerHTML=cartQuantity;
-    localStorage.setItem('cart', JSON.stringify(cart));
+    
   });
 });
